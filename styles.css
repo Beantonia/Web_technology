@@ -1,0 +1,444 @@
+/* styles.css */
+
+header
+{
+  background-image: url('mathias-vagott.png'); 
+  background-size: cover; 
+  background-position: center; 
+  opacity: 0.9;
+  padding-top: 94px;
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  left:0;
+  right:0;
+  z-index: 999; 
+}
+
+#fejlec_kep
+{
+  position: fixed;
+  width: 100%;
+  
+}
+
+div
+{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  z-index: 800; 
+}
+
+p
+{
+  margin-bottom:10px;
+  z-index: 800; 
+}
+
+h1
+{  
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  z-index: 800; 
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.left_span
+{
+  position: relative;
+  float: left;
+  margin-left: 250px;
+  text-align: center;  
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+  vertical-align:middle;
+  z-index: 800; 
+}
+
+#left_span_1
+{
+  top: 210px;
+}
+
+#left_span_2
+{
+  top: 500px;
+  left: 40px;
+}
+
+#left_span_3
+{
+  top: 700px;
+  left: -30px;
+}
+
+.right_span
+{
+  position: relative;
+  float: right;
+  margin-right: 230px;
+  text-align: center;
+  vertical-align:middle;
+  z-index: 800; 
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+#right_span_1
+{
+  top: 120px;
+}
+
+#right_span_2
+{
+  top: 330px;
+  right: 35px;
+}
+
+#right_span_3
+{
+  top: 600px;  
+}
+
+img
+{
+  width: 400px;
+  height: auto;
+  vertical-align:middle;
+  border: 2px solid #ffffff;
+}
+
+.erdekesseg
+{
+  margin-bottom: -25px;
+}
+
+.tartalom
+{
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+body 
+{
+  background-image: url('mathias.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  margin-bottom: 150px;
+  align-items: center;
+  justify-content: center;
+}    
+
+a 
+{
+  color: rgb(255, 255, 255); 
+  text-decoration:underline; 
+}    
+
+ul {
+  list-style: none; 
+}
+
+
+.pontozott_lista::before
+{
+  content: ''; 
+  display: inline-block; 
+  width: 30px; 
+  height: 30px; 
+  background: url('korona.png') no-repeat; 
+  background-size: cover; 
+  margin-right: 20px;
+  vertical-align: -4px;
+}
+
+ol
+{
+  position: absolute;
+  top: 200px;
+  left: 545px;
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 2;
+  z-index: 700;
+}
+
+#kapcsolatok
+{
+  text-align:left;
+  margin-left:480px;
+  line-height: 2;
+}
+
+button 
+{
+  background: linear-gradient(to right, #f3e707, #dcb817);
+  color: rgb(25, 17, 48);
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 230px;
+  height: 48px;
+  text-decoration: none;
+  z-index: 1000; 
+  opacity:1;
+}
+
+button:hover 
+{
+  background:  rgb(229, 255, 0);
+  color: rgb(25, 17, 48);
+  font-size: 26px;
+}
+
+.button-link,
+.button-link:hover,
+.button-link:visited
+{  
+  background: linear-gradient(to right, #f3e707, #dcb817);
+  color: rgb(25, 17, 48);
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 230px;
+  height: 48px;
+}
+
+.menu-button
+{
+  position: fixed; 
+  top: 16px;
+}
+
+#button1
+{
+  position: fixed;  
+  left: 40px;
+}
+#button2
+{
+  position: fixed;  
+  left: 300px;
+}
+#button3
+{
+  position: fixed;  
+  left: 1005px;
+}
+#button4
+{
+  position: fixed;  
+  left: 1265px;
+}
+
+#button5
+{
+  position: relative;
+  width: 240px;
+  z-index: 1000;
+  top: 230px;
+}
+
+#button6
+{
+  margin-top:30px;
+}
+
+#button7
+{
+  position: relative;
+  top: 1110px;
+  left: 293px;
+  width: 110px;
+  height: 30px;
+  font-size: 16px;
+  background: linear-gradient(to right, #f3e707, #dcb817);
+  color:rgb(25, 17, 48);
+  padding:0;
+  display:none;
+  text-align: center;
+}
+
+#button7:hover
+{
+  background: rgb(241, 141, 88);
+}
+
+
+#terkoz
+{
+  top: 1600px;
+  opacity:0;
+  text-align: center;
+}
+
+table 
+{
+  position: relative;
+  top:20px;
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 20px; 
+  color:white;
+  font-size: 30px;
+  margin-left:70px;
+}
+
+th, td 
+{
+  border: 1px solid #ffffff; 
+  padding: 8px; 
+  text-align: left; 
+  background-color: #59575c57;
+  min-width: 200px;
+}
+
+th 
+{
+  background-color: #858383ac;
+  text-align: center;
+}
+
+#table-container
+{
+  text-align: center;
+}
+
+.form-container
+{
+  margin-bottom: 100px;
+  z-index: 700;
+}
+
+
+form 
+{
+  display: none;  
+  z-index: 700;
+  margin: auto;
+  position:relative;
+  top: 290px;
+  background-color: #050b2a;
+  opacity: 1;
+  width: 70%;
+  height: 725px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(76, 17, 214, 0.1);
+}
+
+label 
+{
+  display: block;
+  margin-bottom: 8px;
+  margin-top:8px;
+}
+
+input 
+{
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+textarea 
+{
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#birthdate
+{
+margin-bottom:20px;
+width:150px;
+}
+.radio-group 
+{
+  display: flex;
+  position:absolute;
+  top:365px;
+  left:110px;
+  text-align: center;
+  background-color: #ffffff;
+  color:black;
+}
+
+.radio-group label 
+{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.checkbox-group 
+{
+  display: flex;
+  position:absolute;
+  top:500px;
+  left:90px;
+  text-align: center;
+  z-index: 500;
+  background-color: #ffffff;
+  color:black;
+}
+
+.checkbox-group label 
+{
+  margin-bottom: 10px;
+  margin-left:55px;
+  margin-right: 55px;
+  text-align: center;
+}
+
+#color-div
+{
+  margin-top:115px;
+}
+
+#color
+{
+  margin:0;
+  padding:0;
+  width: 300px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+#alert_div
+{
+font-size: 20px;
+background-color: red;
+height: 20px;
+width: 700px;
+position: absolute;
+left: 325px;
+top: 1367px;
+padding: 20px;
+display:none;
+text-align: center;
+justify-content: center;
+border-radius: 8px;
+}
+

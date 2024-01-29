@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>jelentkezes</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+  #terkoz2
+  {
+    top: 350px;
+    opacity:0;
+  }
+  </style>
+
+</head>
+
+<body> 
+  
+  <header>
+  </header>
+  
+  <a href="file:///E:/toni/Miskolci%20Egyetem/2023-24_osz/Web-technol%C3%B3gi%C3%A1k/Beadand%C3%B3/matyas_tusa_kezdolap.html" target="_self"><button class=menu-button id="button1">KEZDŐLAP</button></a>
+  <a href="file:///E:/toni/Miskolci%20Egyetem/2023-24_osz/Web-technol%C3%B3gi%C3%A1k/Beadand%C3%B3/matyas_tusa_tortenetek.html" target="_self"><button class=menu-button id="button2">TÖRTÉNETEK</button></a>
+  <a href="file:///E:/toni/Miskolci%20Egyetem/2023-24_osz/Web-technol%C3%B3gi%C3%A1k/Beadand%C3%B3/matyas_tusa_jatekok.html" target="_self"><button class=menu-button id="button3">JÁTÉKOK</button></a>  
+  <a href="file:///E:/toni/Miskolci%20Egyetem/2023-24_osz/Web-technol%C3%B3gi%C3%A1k/Beadand%C3%B3/matyas_tusa_jelentkezes.html" target="_self"><button class=menu-button id="button4">JELENTKEZÉS</button></a>
+
+  
+  <h1>
+    Jelentkezés lépései:
+  </h1>
+
+  <ol>
+    <li id="elso_elem">Kattints a JELENTKEZEM gombra!</li>
+    <li id="elso_elem">Add meg a szükséges adatokat!</li>
+    <li id="elso_elem">Kattints a KÜLDÉS gombra!</li>
+
+  </ol>
+
+  <div id="alert_div">
+   alert
+  </div>
+
+  <div class="button-container"><button id="button5">JELENTKEZEM</button></div>
+
+  <div class="button-container"><button id="button7">Rendben</button></div>
+
+  <div class="form-container">
+
+    
+  <form id="data_form" onsubmit="return validateForm()">      
+    <label for="name">NÉV:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="introduction">BEMUTATKOZÁS:</label>
+    <textarea id="introduction" name="introduction" rows="4" cols="50" ></textarea>
+
+    <label for="birthdate">SZÜLETÉSI DÁTUM:</label>
+    <input type="date" id="birthdate" name="birthdate" >
+
+    <label>KÉPZÉSI KÖZPONT:</label>
+    
+      <div class="radio-group">
+        <label for="budapest">
+          <input type="radio" id="budapest" name="town" value="Budapest" >
+          Budapest
+        </label>
+    
+        <label for="debrecen">
+          <input type="radio" id="debrecen" name="town" value="Debrecen" >
+          Debrecen
+        </label>
+    
+        <label for="gyor">
+          <input type="radio" id="gyor" name="town" value="Győr" >
+          Győr
+        </label>
+    
+        <label for="miskolc">
+          <input type="radio" id="miskolc" name="town" value="Miskolc" >
+          Miskolc
+        </label>
+    
+        <label for="pecs">
+          <input type="radio" id="pecs" name="town" value="Pécs" >
+          Pécs
+        </label>
+    
+        <label for="szeged">
+          <input type="radio" id="szeged" name="town" value="Szeged" >
+          Szeged
+        </label>
+      </div>
+   
+      <div>
+      <label>ÉTKEZÉS, SZÁLLÁS:
+      </div>
+  
+
+      <div class="checkbox-group">
+        <label for="reggeli">
+          <input type="checkbox" id="reggeli" name="etkezes[]" value="Reggeli">
+          Reggeli
+        </label>
+  
+        <label for="ebed">
+          <input type="checkbox" id="ebed" name="etkezes[]" value="Ebéd">
+          Ebéd
+        </label>
+  
+        <label for="vacsora">
+          <input type="checkbox" id="vacsora" name="etkezes[]" value="Vacsora">
+          Vacsora
+        </label>
+  
+        <label for="szallas">
+          <input type="checkbox" id="szallas" name="szallas" value="Szállás">
+          Szállás
+        </label>
+      </div>
+
+      <div id="color-div">
+      <label for="color">POHÁR SZÍNE:</label>
+      <input type="color" id="color" name="color" value="#ffffff" >
+      </div>
+
+    <div class="button-container">
+    <button type="submit" id="button6">KÜLDÉS</button>
+    </div>
+
+</form>
+</div>
+
+<div id="terkoz2">
+  terkoz
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
